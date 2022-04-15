@@ -1,13 +1,7 @@
 use_frameworks!
 
-platform :ios, '9.0'
+platform :ios, '10.0'
 
-target 'JYMeditor_Example' do
-  pod 'JYMeditor', :path => '../'
-
-  target 'JYMeditor_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'JYMediator_Example' do
+  pod 'JYMediator', :path => '../'
 end
