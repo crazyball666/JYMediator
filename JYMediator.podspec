@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JYMediator'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'A short description of JYMediator.'
 
   s.description      = <<-DESC
@@ -23,6 +23,18 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '10.0'
   s.swift_version = ['5.0']
 
+  
+  s.default_subspec = 'Core'
+  
+  s.subspec 'Core' do |ss|
+    ss.ios.source_files = 'JYMediator/Classes/Core/*'
+  end
 
-  s.source_files = 'JYMediator/Classes/**/*'
+  s.subspec 'iOSAppEvent' do |ss|
+    ss.ios.source_files = 'JYMediator/Classes/iOSAppEvent/*'
+    ss.ios.dependency 'JYMediator/Core'
+  end
+
+  
+  
 end

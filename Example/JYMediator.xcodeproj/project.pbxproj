@@ -25,6 +25,8 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		7B1FE7E6FB1A432F06925707 /* Pods-JYMediator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYMediator_Example.release.xcconfig"; path = "Target Support Files/Pods-JYMediator_Example/Pods-JYMediator_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7C6A82BB2997F2700005914B /* JYMediator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = JYMediator.podspec; path = ../JYMediator.podspec; sourceTree = "<group>"; };
+		7C6A82BC2997F35B0005914B /* release_pod.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; name = release_pod.sh; path = ../release_pod.sh; sourceTree = "<group>"; };
 		7CD3E0B42809ECBC0089F592 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = JYMediator/AppDelegate.swift; sourceTree = "<group>"; };
 		7CD3E0B52809ECBC0089F592 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = JYMediator/Info.plist; sourceTree = "<group>"; };
 		7CD3E0B62809ECBC0089F592 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = JYMediator/ViewController.swift; sourceTree = "<group>"; };
@@ -98,8 +100,10 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				7C6A82BB2997F2700005914B /* JYMediator.podspec */,
 				9D820B9654A80A3032928618 /* README.md */,
 				4CD8845BD63A576C3F127929 /* LICENSE */,
+				7C6A82BC2997F35B0005914B /* release_pod.sh */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";

@@ -1,16 +1,21 @@
 PODS:
-  - JYMediator (0.1.0)
+  - JYMediator (0.0.1):
+    - JYMediator/Core (= 0.0.1)
+  - JYMediator/Core (0.0.1)
+  - JYMediator/iOSAppEvent (0.0.1):
+    - JYMediator/Core
 
 DEPENDENCIES:
   - JYMediator (from `../`)
+  - JYMediator/iOSAppEvent (from `../`)
 
 EXTERNAL SOURCES:
   JYMediator:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JYMediator: 91d1af935fc90149798c42da65c3951a96ab3a90
+  JYMediator: 7e73c059b954ba75e81a261df8b742e5cbd6bbe2
 
-PODFILE CHECKSUM: 104737461cf430191df748b9d432331a72d837e2
+PODFILE CHECKSUM: dee8bee32a8b8a56108b74162f260a7232b98cf9
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

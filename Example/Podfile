@@ -4,4 +4,5 @@ platform :ios, '10.0'
 
 target 'JYMediator_Example' do
   pod 'JYMediator', :path => '../'
+  pod 'JYMediator/iOSAppEvent', :path => '../'
 end
